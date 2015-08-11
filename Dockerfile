@@ -1,4 +1,5 @@
 FROM ghost:latest
+MAINTAINER leeroy <i@leeroy.im>
 
 RUN npm install newrelic
 
